@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9257d9473e7069af1d27f5de273743d7",
+    "content-hash": "5e76eeca869a69d2629ac7aa09d6fa30",
     "packages": [
         {
             "name": "brick/math",
@@ -2246,6 +2246,37 @@
             "time": "2022-03-08T17:03:00+00:00"
         },
         {
+            "name": "webman-tech/docker",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webman-tech/docker.git",
+                "reference": "fc84af77061f25c47539c92b702a6367ba3040e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webman-tech/docker/zipball/fc84af77061f25c47539c92b702a6367ba3040e9",
+                "reference": "fc84af77061f25c47539c92b702a6367ba3040e9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kriss\\WebmanDocker\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "docker for webman app",
+            "support": {
+                "issues": "https://github.com/webman-tech/docker/issues",
+                "source": "https://github.com/webman-tech/docker/tree/v2.3.0"
+            },
+            "time": "2023-02-27T07:03:19+00:00"
+        },
+        {
             "name": "webman/admin",
             "version": "v0.6.18",
             "source": {
@@ -2508,7 +2539,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2"
+        "php": ">=8.2"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"

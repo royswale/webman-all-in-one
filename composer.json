@@ -27,7 +27,8 @@
     "php": ">=8.2",
     "workerman/webman-framework": "^1.5.0",
     "monolog/monolog": "^2.0",
-    "webman/admin": "^0.6.18"
+    "webman/admin": "^0.6.18",
+    "webman-tech/docker": "^2.3"
   },
   "suggest": {
     "ext-event": "For better performance. "

@@ -55,5 +55,8 @@
     "pre-package-uninstall": [
       "support\\Plugin::uninstall"
     ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.3"
   }
 }
